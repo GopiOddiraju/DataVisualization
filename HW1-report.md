@@ -16,19 +16,19 @@ remote to local
    
 *If you have committed a change on your local machine, but do not see the update on GitHub.com, what step might have you forgotten?*
 
-Pushing into Github after committing the changes.
+Pushing into GitHub after committing the changes.
 
 
 ## Markdown
 
 *Create a bulleted list with at least 3 items*
-* first
-* second
-* third
+* First
+* Second
+* Third
 
-*Write a single paragraph that demonstrates the use of italics, bold, bold italics, code, and includes a link. The paragraph does not have to make sense.*
+*Write a single paragraph that demonstrates the use of italics, bold, bold italics, and code, and includes a link. The paragraph does not have to make sense.*
 
-*This paragraph explains the use of italics* and **this is the first time i'm using Github actually, though i've created an account long ago.** ***So, please bear with my silly mistakes for some days.***, `Hopefully i'll get better at it`, and this is how we can insert a [link](https://www.tableau.com/)
+*This paragraph explains the use of italics* and **this is the first time I'm using Github actually, though I've created an account long ago.** ***So, please bear with my silly mistakes for some days.***, `Hopefully I'll get better at it`, and this is how we can insert a [link](https://www.tableau.com/)
 
 *Create a level 3 heading*
 ### A level 3 heading
@@ -55,7 +55,7 @@ https://colab.research.google.com/drive/1A9k19TiZnX7DNZaq7bA8Bxp1QjH5d71l#scroll
 
 *Describe what the figure is showing.*
 
-This figure shows the comparision of bill length and bill depth of all species in mm.
+This figure shows the comparison of bill length and bill depth of all species in mm.
 
 *Insert the second penguin chart here*
 ![alt text](second_penguin.png)
@@ -66,21 +66,21 @@ This figure shows the sum of body mass for each kind of species using the aggreg
 
 *What happened when you removed the outer parentheses from the code? Why?*
 
-There was a syntax error when I removed the outer parentheses from the code. From what I've understood, To break up long lines of code, using parentheses is an option. As we removed them now in this code, there was an error. We can avoid that by modifying code to `so.Plot(penguins, x="species", y="body_mass_g").add(so.Bar(), so.Agg())`.
+There was a syntax error when I removed the outer parentheses from the code. From what I've understood, To break up long lines of code, using parentheses is an option. As we removed them now in this code, there was an error. We can avoid that by modifying the code to `so.Plot(penguins, x="species", y="body_mass_g").add(so.Bar(), so.Agg())`.
 
 ## Observable and Vega-Lite
 
 *What happens when you replace `markCircle()` with `markSquare()`?*
 
-All the data points were represnted by Squares instead of circles.
+All the data points were represented by Squares instead of circles.
 
 *What happens when you replace `markCircle()` with `markPoint()`?*
 
-All the data points were represnted by Points instead of circles.
+All the data points were represented by Points instead of circles.
 
 *What change do you need to make to swap the x and y axes on the scatterplot?*
 
-We need to interchange the fied names such as Miles_per_Gallon field for x and Horsepower field for y.
+We need to interchange the field names such as the Miles_per_Gallon field for x and the Horsepower field for y.
 
 *Insert the bar chart image here*
 
