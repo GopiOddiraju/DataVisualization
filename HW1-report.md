@@ -1,1 +1,1 @@
-![local image](Sales_in_East_region.png)
+![Local Image](sales_in_east_region.png)
