@@ -95,7 +95,7 @@ Followed the same steps such as removing leading and trailing spaces, and mergin
 
 
 
-### Part 1. Analyze Cleaned Data
+### Part 2. Analyze Cleaned Data
 
 1. How many types (kinds) of pets are there?
 
