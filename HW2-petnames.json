@@ -1,0 +1,4733 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "What kind of pet is this (Dog, Cat, Bird, Other)",
+          "expression": "value",
+          "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Dog",
+                "l": "Dog"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column What kind of pet is this (Dog, Cat, Bird, Other) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "What kind of pet is this (Dog, Cat, Bird, Other)",
+          "expression": "value",
+          "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Dog",
+                "l": "Dog"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column What kind of pet is this (Dog, Cat, Bird, Other) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column What kind of pet is this (Dog, Cat, Bird, Other) using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dog",
+          "dog",
+          "Dog.",
+          "dog :)))))"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      },
+      {
+        "from": [
+          "Cat",
+          "cat",
+          "Cat!"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      },
+      {
+        "from": [
+          "Guinea pig",
+          "Guinea Pig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Guinea pig"
+      },
+      {
+        "from": [
+          "Bunny",
+          "bunny"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bunny"
+      },
+      {
+        "from": [
+          "Hamster",
+          "hamster"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hamster"
+      },
+      {
+        "from": [
+          "Hermit Crab",
+          "Hermit crab"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hermit Crab"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Beta fish",
+          "Betta fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beta fish"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dog",
+          "Dig",
+          "Doggo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      },
+      {
+        "from": [
+          "Cats",
+          "Katze"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      },
+      {
+        "from": [
+          "Rabbit",
+          "Robot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rabbit"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phoebe",
+          "Puppy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cat",
+          "Ca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Car"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "dlg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "God"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kitten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other: snake"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Snake"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bunny"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rabbit"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Card Board Poster"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chinchilla (Other)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chinchilla"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Beta fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fish"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gecko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lizard"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Goldfish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fish"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Indoor goldfish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fish"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leopard Gecko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lizard"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other (fish)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fish"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other- guinea pig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Guinea pig"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other: bees"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bee"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other: prairie dog"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pit bull"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kitty Meow"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Luna"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "keyColumnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "description": "Split multi-valued cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " dog"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " dog "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dog"
+      }
+    ],
+    "description": "Mass edit cells in column What kind of pet is this (Dog, Cat, Bird, Other)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\")",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\") using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Brownie",
+          "brownie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brownie"
+      },
+      {
+        "from": [
+          "Bubbles",
+          "bubbles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bubbles"
+      },
+      {
+        "from": [
+          "Peaches",
+          "peaches"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peaches"
+      },
+      {
+        "from": [
+          "Scout",
+          "scout"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Scout"
+      },
+      {
+        "from": [
+          "Lady",
+          "lady"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lady"
+      },
+      {
+        "from": [
+          "Ginger",
+          "ginger"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ginger"
+      },
+      {
+        "from": [
+          "Robbie",
+          "robbie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Robbie"
+      },
+      {
+        "from": [
+          "Bailey's Irish Cream",
+          "Bailey’s Irish Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bailey's Irish Cream"
+      },
+      {
+        "from": [
+          "Daisy",
+          "daisy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Daisy"
+      },
+      {
+        "from": [
+          "Abby",
+          "abby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abby"
+      },
+      {
+        "from": [
+          "Isabella",
+          "isabella"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Isabella"
+      },
+      {
+        "from": [
+          "Archer",
+          "archer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Archer"
+      },
+      {
+        "from": [
+          "Phineas",
+          "phineas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phineas"
+      },
+      {
+        "from": [
+          "Dixie",
+          "dixie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dixie"
+      },
+      {
+        "from": [
+          "Tiger",
+          "tiger"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tiger"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dee Dee",
+          "DeeDee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dee Dee"
+      },
+      {
+        "from": [
+          "Bo Bo",
+          "Bobo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bo Bo"
+      },
+      {
+        "from": [
+          "June Bug",
+          "Junebug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "June Bug"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's everyday name (e.g. \"Church\")",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's everyday name (e.g. \"Church\") using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's everyday name (e.g. \"Church\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moose",
+          "moose"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moose"
+      },
+      {
+        "from": [
+          "Brownie",
+          "brownie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brownie"
+      },
+      {
+        "from": [
+          "Hank",
+          "hank"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hank"
+      },
+      {
+        "from": [
+          "Peaches",
+          "peaches"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peaches"
+      },
+      {
+        "from": [
+          "Scout",
+          "scout"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Scout"
+      },
+      {
+        "from": [
+          "Lady",
+          "lady"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lady"
+      },
+      {
+        "from": [
+          "Woody",
+          "woody"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Woody"
+      },
+      {
+        "from": [
+          "Kitty",
+          "kitty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kitty"
+      },
+      {
+        "from": [
+          "Cleo",
+          "cleo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cleo"
+      },
+      {
+        "from": [
+          "Daisy",
+          "daisy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Daisy"
+      },
+      {
+        "from": [
+          "Beau",
+          "Beau Beau"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beau"
+      },
+      {
+        "from": [
+          "Baby Kitty",
+          "Baby kitty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Baby Kitty"
+      },
+      {
+        "from": [
+          "Sam",
+          "Sam sam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sam"
+      },
+      {
+        "from": [
+          "Izzy",
+          "izzy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Izzy"
+      },
+      {
+        "from": [
+          "Abby",
+          "abby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abby"
+      },
+      {
+        "from": [
+          "Puppy",
+          "puppy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Puppy"
+      },
+      {
+        "from": [
+          "Bo",
+          "Bo Bo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bo"
+      },
+      {
+        "from": [
+          "D.O.C.",
+          "Doc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Doc"
+      },
+      {
+        "from": [
+          "Booboo",
+          "Boo-Boo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Booboo"
+      },
+      {
+        "from": [
+          "Coco",
+          "coco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Coco"
+      },
+      {
+        "from": [
+          "Benny",
+          "benny"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Benny"
+      },
+      {
+        "from": [
+          "Bug",
+          "bug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bug"
+      },
+      {
+        "from": [
+          "Bubby",
+          "bubby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bubby"
+      },
+      {
+        "from": [
+          "Tuck",
+          "Tuck Tuck"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tuck"
+      },
+      {
+        "from": [
+          "Allie",
+          "allie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Allie"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's everyday name (e.g. \"Church\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's everyday name (e.g. \"Church\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kitty boy",
+          "Kitty-Boy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kitty boy"
+      },
+      {
+        "from": [
+          "June Bug",
+          "Junebug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "June Bug"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's everyday name (e.g. \"Church\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's everyday name (e.g. \"Church\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Baby Girl",
+          "Bay girl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Baby Girl"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's everyday name (e.g. \"Church\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's everyday name (e.g. \"Church\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jackie",
+          "Jack, Jackie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jackie"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's everyday name (e.g. \"Church\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's everyday name (e.g. \"Church\")",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Abi (Abby)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abby"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's everyday name (e.g. \"Church\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's age using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "~14"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's age using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "🤷🏼‍♀️"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "12",
+          "12?",
+          "12 1/2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12"
+      },
+      {
+        "from": [
+          "Deceased",
+          "deceased"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Deceased"
+      },
+      {
+        "from": [
+          "0.5",
+          "0,5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0.5"
+      },
+      {
+        "from": [
+          "11",
+          "11?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11"
+      },
+      {
+        "from": [
+          "13",
+          "13?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13"
+      },
+      {
+        "from": [
+          "14",
+          "14?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14"
+      },
+      {
+        "from": [
+          "16",
+          "16?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16"
+      },
+      {
+        "from": [
+          "2",
+          "2?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      },
+      {
+        "from": [
+          "6",
+          "6?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6"
+      },
+      {
+        "from": [
+          "7",
+          "7?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7"
+      },
+      {
+        "from": [
+          "2.5",
+          "2,5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2.5"
+      },
+      {
+        "from": [
+          "Dead",
+          "Dead :("
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dead"
+      },
+      {
+        "from": [
+          "Unknown",
+          "unknown"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      },
+      {
+        "from": [
+          "3 years (approx)",
+          "3 years approx."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3 years (approx)"
+      },
+      {
+        "from": [
+          "16(+)",
+          "16+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16(+)"
+      },
+      {
+        "from": [
+          "11 months",
+          "11 Months"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11 months"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10 months",
+          "10months"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10 months"
+      },
+      {
+        "from": [
+          "6mo",
+          "6 mo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6mo"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "5ish",
+                "l": "5ish"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "5ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Dead",
+                "l": "Dead"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dead"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Deceased"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Six",
+                "l": "Six"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Six"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "8 years",
+                "l": "8 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "8 years old",
+                "l": "8 years old"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8 years old"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "9 years",
+                "l": "9 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "9 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "5 years",
+                "l": "5 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "5 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "3 years",
+                "l": "3 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "11 years",
+                "l": "11 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "11 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "12 years",
+                "l": "12 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "12 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "2.5 years",
+                "l": "2.5 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.5 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2.5"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "2 years",
+                "l": "2 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "1 year",
+                "l": "1 year"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1 year"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "1.5 years",
+                "l": "1.5 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.5 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1.5"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "10 years",
+                "l": "10 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "16ish",
+                "l": "16ish"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "16ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "3 years (approx)",
+                "l": "3 years (approx)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3 years (approx)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "3ish",
+                "l": "3ish"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3ish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "4 years",
+                "l": "4 years"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "7 years old",
+                "l": "7 years old"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "7 years old"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Two",
+                "l": "Two"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Two"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "~15 years (would be 17 years today, now deceased, rescue)",
+                "l": "~15 years (would be 17 years today, now deceased, rescue)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "~15 years (would be 17 years today, now deceased, rescue)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Deceased"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "1 1/2",
+                "l": "1 1/2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1 1/2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1.5"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "10 mos",
+                "l": "10 mos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10 mos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10 months"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Pet's age",
+          "expression": "grel:value.replace(\"~\", \"\")",
+          "columnName": "Pet's age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "16(+)",
+                "l": "16(+)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "16(+)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's age"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's breed (if applicable) using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Golden Retriever",
+          "Golden retriever",
+          "Golden retriever!",
+          "Golden  retriever",
+          "Golden  retriever!",
+          "golden retriever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Retriever"
+      },
+      {
+        "from": [
+          "Domestic short hair",
+          "Domestic Short Hair",
+          "domestic short hair",
+          "Short hair domestic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic short hair"
+      },
+      {
+        "from": [
+          "Domestic long hair",
+          "Domestic Long Hair",
+          "Long hair domestic",
+          "domestic long hair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic long hair"
+      },
+      {
+        "from": [
+          "Domestic Longhair",
+          "Domestic long-hair",
+          "Domestic longhair",
+          "Long-hair domestic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic long hair"
+      },
+      {
+        "from": [
+          "n/a",
+          "NA",
+          "N/A",
+          "N/a"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "n/a"
+      },
+      {
+        "from": [
+          "Lab mix",
+          "Lab Mix",
+          "lab mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lab mix"
+      },
+      {
+        "from": [
+          "Golden doodle",
+          "Golden Doodle",
+          "golden doodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden doodle"
+      },
+      {
+        "from": [
+          "Cavalier King Charles Spaniel",
+          "King Charles Cavalier Spaniel",
+          "cavalier King Charles spaniel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cavalier King Charles Spaniel"
+      },
+      {
+        "from": [
+          "Domestic shorthair",
+          "Domestic Shorthair",
+          "domestic shorthair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic short hair"
+      },
+      {
+        "from": [
+          "West Highland White Terrier",
+          "West highland white terrier",
+          "white west highland terrier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "West Highland White Terrier"
+      },
+      {
+        "from": [
+          "Shih Tzu",
+          "Shih tzu",
+          "shih tzu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shih Tzu"
+      },
+      {
+        "from": [
+          "Golden retriever mix",
+          "Golden Retriever Mix",
+          "Golden Retriever mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Retriever"
+      },
+      {
+        "from": [
+          "Basset Hound",
+          "Basset hound",
+          "basset hound"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Basset Hound"
+      },
+      {
+        "from": [
+          "Bernese Mountain Dog",
+          "Bernese mountain dog",
+          "bernese mountain dog"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bernese Mountain Dog"
+      },
+      {
+        "from": [
+          "Cocker Spaniel",
+          "Cocker spaniel",
+          "cocker spaniel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cocker Spaniel"
+      },
+      {
+        "from": [
+          "Border collie mix",
+          "Border Collie Mix",
+          "Border Collie mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Border collie"
+      },
+      {
+        "from": [
+          "Whippet",
+          "whippet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Whippet"
+      },
+      {
+        "from": [
+          "persian",
+          "Persian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "persian"
+      },
+      {
+        "from": [
+          "Havanese",
+          "havanese?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Havanese"
+      },
+      {
+        "from": [
+          "German Shepherd mix",
+          "German shepherd mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "German Shepherd"
+      },
+      {
+        "from": [
+          "Yellow lab",
+          "Yellow Lab"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yellow lab"
+      },
+      {
+        "from": [
+          "English Springer Spaniel",
+          "English springer spaniel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "English Springer Spaniel"
+      },
+      {
+        "from": [
+          "Rhodesian Ridgeback",
+          "Rhodesian ridgeback"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rhodesian Ridgeback"
+      },
+      {
+        "from": [
+          "Golden mix",
+          "Golden Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden mix"
+      },
+      {
+        "from": [
+          "Tuxedo cat",
+          "Tuxedo Cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tuxedo cat"
+      },
+      {
+        "from": [
+          "Guinea Pig",
+          "Guinea pig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Guinea Pig"
+      },
+      {
+        "from": [
+          "Russian Dwarf Hamster",
+          "Russian dwarf hamster"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russian Dwarf Hamster"
+      },
+      {
+        "from": [
+          "Siamese Mix",
+          "Siamese mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Siamese Mix"
+      },
+      {
+        "from": [
+          "Cockapoo",
+          "cockapoo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cockapoo"
+      },
+      {
+        "from": [
+          "Maine Coon",
+          "Maine coon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maine Coon"
+      },
+      {
+        "from": [
+          "Golden Retreiver",
+          "Golden retreiver"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Retriever"
+      },
+      {
+        "from": [
+          "West Highland Terrier",
+          "West highland terrier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "West Highland Terrier"
+      },
+      {
+        "from": [
+          "Orange tabby (DSH)",
+          "DSH Orange Tabby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Orange tabby (DSH)"
+      },
+      {
+        "from": [
+          "Australian Shepherd",
+          "Australian shepherd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Australian Shepherd"
+      },
+      {
+        "from": [
+          "Rottweiler",
+          "rottweiler"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rottweiler"
+      },
+      {
+        "from": [
+          "American shorthair",
+          "American Shorthair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "American shorthair"
+      },
+      {
+        "from": [
+          "Australian Cattle Dog",
+          "Australian cattle dog"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Australian Cattle Dog"
+      },
+      {
+        "from": [
+          "Corgi",
+          "corgi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Corgi"
+      },
+      {
+        "from": [
+          "Chihuahua",
+          "chihuahua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chihuahua"
+      },
+      {
+        "from": [
+          "Pitbull mix",
+          "pitbull mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pitbull mix"
+      },
+      {
+        "from": [
+          "Lab Retriever",
+          "Lab retriever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lab Retriever"
+      },
+      {
+        "from": [
+          "Maltipoo",
+          "maltipoo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maltipoo"
+      },
+      {
+        "from": [
+          "Pit bull mix",
+          "Pit Bull Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pitbull mix"
+      },
+      {
+        "from": [
+          "Pembroke Welsh Corgi",
+          "Pembroke welsh corgi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pembroke Welsh Corgi"
+      },
+      {
+        "from": [
+          "DSH",
+          "Dsh"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Orange taby (DSH)"
+      },
+      {
+        "from": [
+          "Black Labrador Retriever",
+          "Labrador retriever (black)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Black Labrador Retriever"
+      },
+      {
+        "from": [
+          "Mixed",
+          "mixed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mixed"
+      },
+      {
+        "from": [
+          "Leopard gecko",
+          "Leopard Gecko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leopard gecko"
+      },
+      {
+        "from": [
+          "Mini schnauzer",
+          "Mini Schnauzer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mini schnauzer"
+      },
+      {
+        "from": [
+          "Terrier mix",
+          "Terrier Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Terrier mix"
+      },
+      {
+        "from": [
+          "beagle mix",
+          "Beagle mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "beagle mix"
+      },
+      {
+        "from": [
+          "Springer Spaniel",
+          "Springer spaniel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Springer Spaniel"
+      },
+      {
+        "from": [
+          "Miniature Dachshund",
+          "Miniature dachshund"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miniature Dachshund"
+      },
+      {
+        "from": [
+          "Dachshund",
+          "dachshund"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dachshund"
+      },
+      {
+        "from": [
+          "Mutt",
+          "mutt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mutt"
+      },
+      {
+        "from": [
+          "Russian Blue",
+          "Russian blue"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russian Blue"
+      },
+      {
+        "from": [
+          "Hound mix",
+          "Mix hound"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hound mix"
+      },
+      {
+        "from": [
+          "Labrador Mix",
+          "Labrador mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Labrador Mix"
+      },
+      {
+        "from": [
+          "Chocolate lab",
+          "Chocolate Lab"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chocolate lab"
+      },
+      {
+        "from": [
+          "English Cocker Spaniel",
+          "English cocker spaniel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "English Cocker Spaniel"
+      },
+      {
+        "from": [
+          "Tabby Mix",
+          "Tabby mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tabby Mix"
+      },
+      {
+        "from": [
+          "Betta fish",
+          "Betta Fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Betta fish"
+      },
+      {
+        "from": [
+          "Jack Russell",
+          "Jack russell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jack Russell"
+      },
+      {
+        "from": [
+          "Black Lab",
+          "Black lab"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Black Lab"
+      },
+      {
+        "from": [
+          "Miniature schnauzer",
+          "Miniature Schnauzer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miniature schnauzer"
+      },
+      {
+        "from": [
+          "British Shorthair",
+          "British short-hair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "British Shorthair"
+      },
+      {
+        "from": [
+          "German Shepherd",
+          "German shepherd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "German Shepherd"
+      },
+      {
+        "from": [
+          "Tortoise shell",
+          "tortoise shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tortoise shell"
+      },
+      {
+        "from": [
+          "Grey",
+          "grey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grey"
+      },
+      {
+        "from": [
+          "Labrador Retriever",
+          "Labrador retriever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Labrador Retriever"
+      },
+      {
+        "from": [
+          "Toy Poodle",
+          "Toy poodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Toy Poodle"
+      },
+      {
+        "from": [
+          "Pug",
+          "pug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pug"
+      },
+      {
+        "from": [
+          "Yellow Labrador Retriever",
+          "Yellow Labrador retriever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yellow Labrador Retriever"
+      },
+      {
+        "from": [
+          "Jack Russell Terrier",
+          "Jack Russell terrier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jack Russell Terrier"
+      },
+      {
+        "from": [
+          "Golden",
+          "GOLDEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden"
+      },
+      {
+        "from": [
+          "Shepherd mix",
+          "Shepherd Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shepherd mix"
+      },
+      {
+        "from": [
+          "YorkiePoo",
+          "Yorkiepoo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "YorkiePoo"
+      },
+      {
+        "from": [
+          "Unknown",
+          "unknown"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      },
+      {
+        "from": [
+          "Golden Lab",
+          "Lab golden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Lab"
+      },
+      {
+        "from": [
+          "Standard Poodle",
+          "Standard poodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Standard Poodle"
+      },
+      {
+        "from": [
+          "Border Collie",
+          "Border collie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Border Collie"
+      },
+      {
+        "from": [
+          "Mixed breed",
+          "Mixed Breed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mixed breed"
+      },
+      {
+        "from": [
+          "Chocolate lab mix",
+          "chocolate Lab mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chocolate lab mix"
+      },
+      {
+        "from": [
+          "Chihuahua mix",
+          "chihuahua mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chihuahua mix"
+      },
+      {
+        "from": [
+          "Siberian Husky",
+          "Siberian husky"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Siberian Husky"
+      },
+      {
+        "from": [
+          "Cat",
+          "cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cat"
+      },
+      {
+        "from": [
+          "King Charles",
+          "king Charles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "King Charles"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Border Collie",
+          "Border collie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Border Collie"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pit bull/lab mix",
+          "Pitbull & Lab mix",
+          "Pitbull/lab mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pit bull/lab mix"
+      },
+      {
+        "from": [
+          "American shorthair",
+          "American short hair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "American short hair"
+      },
+      {
+        "from": [
+          "Blue Tick Coon Hound",
+          "Blue tick Coonhound"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Blue Tick Coon Hound"
+      },
+      {
+        "from": [
+          "Golden Retriever/Lab Mix",
+          "Golden retriever lab mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Retriever/Lab Mix"
+      },
+      {
+        "from": [
+          "Shorthair",
+          "Short hair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shorthair"
+      },
+      {
+        "from": [
+          "Domestic Shorthair-Tabby",
+          "Domestic shorthair tabby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic Shorthair-Tabby"
+      },
+      {
+        "from": [
+          "Shih Tzu",
+          "Shihtzu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shih Tzu"
+      },
+      {
+        "from": [
+          "Long-haired Chihuahua",
+          "long haired chihuahua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Long-haired Chihuahua"
+      },
+      {
+        "from": [
+          "Goldendoodle",
+          "Golden doodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Goldendoodle"
+      },
+      {
+        "from": [
+          "Tortoise shell",
+          "Tortoiseshell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tortoise shell"
+      },
+      {
+        "from": [
+          "Pit bull",
+          "Pitbull"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pit bull"
+      },
+      {
+        "from": [
+          "Maine Coon",
+          "Mainecoon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maine Coon"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "German Shepherd",
+          "German Shepard",
+          "German Shepard mix",
+          "German Shepard/ Australian Shepard",
+          "German Shepherd Dog",
+          "German Shepherd x Border Collie; not sure; German Shepherd",
+          "German Shepherd/Husky",
+          "German Shepherd/Husky/Beagle/Chow Chow",
+          "German shepherd/golden retriever",
+          "Germann Shepherd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "German Shepherd"
+      },
+      {
+        "from": [
+          "Domestic Shorthair-Tabby",
+          "Domestic Shorthair - Gray Tabby",
+          "Domestic Shorthair - Tortoiseshell",
+          "Domestic Shorthair-Black",
+          "Domestic Shorthair-tortoise",
+          "Domestic shorthair (calico)",
+          "Domestic shorthair/orange tabby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic Short hair"
+      },
+      {
+        "from": [
+          "Golden Retriever",
+          "Golden Retriever/Lab Mix",
+          "Golden Retriever / Chow",
+          "Golden Retriever/Husky/Shepherd/Jack Russell",
+          "Golden retriever/border collie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Retriever"
+      },
+      {
+        "from": [
+          "Mixed breed (Appaloosa, paint, Tennessee walker)",
+          "Mixed breed (pomeranian, papillon, chihuahua, cavalier)",
+          "Mixed breed Boomer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mixed breed"
+      },
+      {
+        "from": [
+          "Yorkshire Terrier",
+          "Yorkshire Terrior",
+          "Yorkshire terrier mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yorkshire Terrier"
+      },
+      {
+        "from": [
+          "Treeing Walker Coonhound",
+          "Treeing Walker Coonhound Mix",
+          "Treeing walker coonhound/ Chinese Sharpei"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Treeing Walker Coonhound"
+      },
+      {
+        "from": [
+          "Australian Shepherd",
+          "Australian Shepard/Rottweiler",
+          "Australian Sheppard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Australian Shepherd"
+      },
+      {
+        "from": [
+          "Border Collie cross (mongrel)",
+          "Border collie cross",
+          "Border collie/corgi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Border Collie cross"
+      },
+      {
+        "from": [
+          "Black Labrador Retriever",
+          "Black Labrador",
+          "Black Labrador Retriever Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Black Labrador Retriever"
+      },
+      {
+        "from": [
+          "Jack Russell Terrier",
+          "Jack Russel Terrier",
+          "Jack russel terrier x toy poodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jack Russell Terrier"
+      },
+      {
+        "from": [
+          "Labrador Retriever",
+          "Labrador Retreiver",
+          "Labrador retriever (chocolate)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Labrador Retriever"
+      },
+      {
+        "from": [
+          "Blue Tick Coon Hound",
+          "Blue Tick Coonhound/Mountain Cur"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Blue Tick Coon Hound"
+      },
+      {
+        "from": [
+          "Border Collie",
+          "Boarder Collie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Border Collie"
+      },
+      {
+        "from": [
+          "Shih tzu/ poodle",
+          "Shitzu-Poodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shih tzu/ poodle"
+      },
+      {
+        "from": [
+          "Pitbull mix",
+          "Pitt Bull Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pitbull mix"
+      },
+      {
+        "from": [
+          "Shepherd mix",
+          "Shepard mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shepherd mix"
+      },
+      {
+        "from": [
+          "Basset Hound",
+          "Bassett Hound"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Basset Hound"
+      },
+      {
+        "from": [
+          "Shih-Tzu Poodle Mix",
+          "Shitzu/poodle mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shih-Tzu Poodle Mix"
+      },
+      {
+        "from": [
+          "Cairn Terrier",
+          "Carin Terrier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cairn Terrier"
+      },
+      {
+        "from": [
+          "Shi Tzu mix",
+          "Shih-Tzu Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shi Tzu"
+      },
+      {
+        "from": [
+          "Basenji Mix",
+          "Basenjji mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Basenji Mix"
+      },
+      {
+        "from": [
+          "American Pitbull",
+          "American Pitbull Terrier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "American Pitbull"
+      },
+      {
+        "from": [
+          "YorkiePoo",
+          "Yorkipoo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "YorkiePoo"
+      },
+      {
+        "from": [
+          "French Bulldog",
+          "French Bulldog/Boston Terrier Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "French Bulldog"
+      },
+      {
+        "from": [
+          "Miniature schnauzer",
+          "Miniature Schnauzer/Poodle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miniature schnauzer"
+      },
+      {
+        "from": [
+          "Grey",
+          "Gr"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grey"
+      },
+      {
+        "from": [
+          "Domestic medium hair",
+          "domestic medium haired"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic medium hair"
+      },
+      {
+        "from": [
+          "Jack Russell",
+          "Jack russel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jack Russell"
+      },
+      {
+        "from": [
+          "Bichon Frise",
+          "Bichon frisee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bichon Frise"
+      },
+      {
+        "from": [
+          "Tortie",
+          "Torti"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tortie"
+      },
+      {
+        "from": [
+          "Betta fish",
+          "Beta Fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Betta fish"
+      },
+      {
+        "from": [
+          "Domestic long hair",
+          "Domestic long haired"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic long hair"
+      },
+      {
+        "from": [
+          "Beta",
+          "Betta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beta"
+      },
+      {
+        "from": [
+          "Orange taby (DSH)",
+          "Orange tabby (DSH)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Orange tabby (DSH)"
+      },
+      {
+        "from": [
+          "Weimaraner",
+          "Weimeraner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weimaraner"
+      },
+      {
+        "from": [
+          "Italian greyhound and jack russell",
+          "Italian greyhound x chihuahua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Italian greyhound and jack russell"
+      },
+      {
+        "from": [
+          "Mini Australian Shepard",
+          "Minnie Australian Shepherd/Cockapoo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mini Australian Shepard"
+      },
+      {
+        "from": [
+          "Mianture American Eskimo",
+          "Miniature American Eskimo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mianture American Eskimo"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Shih Tzu",
+          "Shi Tzu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shi Tzu"
+      },
+      {
+        "from": [
+          "Beagle/Jack Russel",
+          "Beagle/jack russell/cow ;)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beagle"
+      },
+      {
+        "from": [
+          "Chihuahua mix",
+          "Chow mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chihuahua mix"
+      },
+      {
+        "from": [
+          "Domestic short hair",
+          "Domestic Short hair"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic short hair"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Maine Coon mix",
+          "Main coone x"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maine Coon mix"
+      },
+      {
+        "from": [
+          "Shi Tzu",
+          "Shitz zu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shi Tzu"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Border Collie",
+          "Border Collie cross",
+          "Border Collie Australian shepherd mix",
+          "Border Collie/ Chinese sharpei",
+          "Border Collie/Belgian Malinois",
+          "Border Collie/Pit Mix",
+          "Border collie/weimerheimer/mixed breed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Border Collie"
+      },
+      {
+        "from": [
+          "Chocolate lab",
+          "Chocolate lab mix",
+          "Chocolate Lab/Pit Mix",
+          "Chocolate Labrador",
+          "Chocolate lab/collie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chocolate lab"
+      },
+      {
+        "from": [
+          "West Highland White Terrier",
+          "West Highland Terrier",
+          "West Highland White"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "West Highland White Terrier"
+      },
+      {
+        "from": [
+          "Dachshund",
+          "Dachshund and Tibetan Spaniel",
+          "dachshund mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dachshund"
+      },
+      {
+        "from": [
+          "Labradoodle",
+          "Labradoodle (mom is yellow lab dad is poodle)",
+          "Labradoodles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Labradoodle"
+      },
+      {
+        "from": [
+          "Mixed breed",
+          "Mixed breed (looks very hound-y)",
+          "Mixed breed cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mixed breed"
+      },
+      {
+        "from": [
+          "Newfoundland",
+          "Newfoundland mix",
+          "Newfoundland/St. Bernard"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Newfoundland"
+      },
+      {
+        "from": [
+          "Foxhound (I think)",
+          "Foxhound Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Foxhound"
+      },
+      {
+        "from": [
+          "Catahoula mix",
+          "Catahoula mix (maybe? Don’t really know)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Catahoula mix"
+      },
+      {
+        "from": [
+          "Mini Dachshund/Beagle mix",
+          "Mini dachshund"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mini Dachshund"
+      },
+      {
+        "from": [
+          "Golden Lab",
+          "Golden lab mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Lab"
+      },
+      {
+        "from": [
+          "Golden Retriever",
+          "Golden Retiever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Retriever"
+      },
+      {
+        "from": [
+          "Great Pyrenees",
+          "Great Pyrenees/Lab"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Great Pyrenees"
+      },
+      {
+        "from": [
+          "Boston terrier",
+          "Boston Terrier x Pug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Boston terrier"
+      },
+      {
+        "from": [
+          "Unknown",
+          "Unknown unknown Bali dog mix and tabby cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      },
+      {
+        "from": [
+          "Pomeranian - Indian mongrel mix",
+          "Pomeranian mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pomeranian"
+      },
+      {
+        "from": [
+          "Pitbull/Terrier",
+          "Pitbull/Terrier mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pitbull/Terrier"
+      },
+      {
+        "from": [
+          "Bichon Frise",
+          "Bichon frise cross"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bichon Frise"
+      },
+      {
+        "from": [
+          "Cairn Terrier",
+          "carin terrier/ kerry blue terrier/ keeshond"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cairn Terrier"
+      },
+      {
+        "from": [
+          "Yorkshire Terrier",
+          "yorkshire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yorkshire Terrier"
+      },
+      {
+        "from": [
+          "King Charles",
+          "King Charles/papillon mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "King Charles"
+      },
+      {
+        "from": [
+          "Jack Russel mix",
+          "Jack russel mutt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jack Russel mix"
+      },
+      {
+        "from": [
+          "Black lab basset houd mix",
+          "Black lab/cocker spaniel mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Black lab basset houd mix"
+      },
+      {
+        "from": [
+          "Black lab mix",
+          "Black Lab/Angel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Black lab mix"
+      },
+      {
+        "from": [
+          "Tortoise shell",
+          "Tortoiseshell cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tortoise shell"
+      },
+      {
+        "from": [
+          "Pit bull/Lab/Beagle/Chihuahua Mix/General mutt",
+          "Pitbull/Boxer mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pit bull"
+      },
+      {
+        "from": [
+          "American Hairless Terrier",
+          "American guinea pig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "American Hairless Terrier"
+      },
+      {
+        "from": [
+          "Yellow Labrador",
+          "Yellow Labrador Retriever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yellow Labrador"
+      },
+      {
+        "from": [
+          "Pitbull mix",
+          "Pit bull mix (and very good boy)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pit bull"
+      },
+      {
+        "from": [
+          "Old English sheepdog",
+          "Olde English Bulldog"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Old English sheepdog"
+      },
+      {
+        "from": [
+          "Shepherd mix",
+          "Shepherd mix (rescue)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shepherd mix"
+      },
+      {
+        "from": [
+          "English Springer Spaniel",
+          "English Black Labrador"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "English Springer Spaniel"
+      },
+      {
+        "from": [
+          "Terrier mix",
+          "Trrrier mixed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Terrier mix"
+      },
+      {
+        "from": [
+          "Russian Dwarf Hamster",
+          "russian dwarf"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russian Dwarf Hamster"
+      },
+      {
+        "from": [
+          "Winter white",
+          "Winter white hamster"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Winter white"
+      },
+      {
+        "from": [
+          "Orange tabby (DSH)",
+          "Orange tabby"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Orange tabby (DSH)"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "beagle mix",
+          "Lab/beagle mix",
+          "Pug/beagle mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "beagle mix"
+      },
+      {
+        "from": [
+          "Long hair",
+          "Long haired"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Long hair"
+      },
+      {
+        "from": [
+          "beagle mix",
+          "Pug/beagle mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "beagle mix"
+      },
+      {
+        "from": [
+          "Shorthair calico",
+          "Shorthair cat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shorthair calico"
+      },
+      {
+        "from": [
+          "Labrador Retriever",
+          "Black Labrador Retriever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Labrador Retriever"
+      },
+      {
+        "from": [
+          "Rottweiler",
+          "Rottweiler Mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rottweiler"
+      },
+      {
+        "from": [
+          "Yellow lab",
+          "Yellow lab mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yellow lab"
+      },
+      {
+        "from": [
+          "beagle mix",
+          "Lab/beagle mix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "beagle mix"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8 years"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's breed (if applicable)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "A mess"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's breed (if applicable)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "What kind of pet is this (Dog, Cat, Bird, Other)",
+    "newColumnName": "Kind of Pet",
+    "description": "Rename column What kind of pet is this (Dog, Cat, Bird, Other) to Kind of Pet"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\")",
+    "newColumnName": "Pet's Full Name",
+    "description": "Rename column Pet's Full Name (you don't have to include your last name. Think \"Winston Churchill\" and not \"Winston Churchill MYLASTNAME\") to Pet's Full Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Pet's everyday name (e.g. \"Church\")",
+    "newColumnName": "Pet's everyday name",
+    "description": "Rename column Pet's everyday name (e.g. \"Church\") to Pet's everyday name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Pet's breed (if applicable)",
+    "newColumnName": "Pet's breed",
+    "description": "Rename column Pet's breed (if applicable) to Pet's breed"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Pet's age",
+    "expression": "grel:value.replace(\"~\",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Pet's Age",
+    "columnInsertIndex": 4,
+    "description": "Create column Pet's Age at index 4 based on column Pet's age using expression grel:value.replace(\"~\",\"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Pet's age",
+    "description": "Remove column Pet's age"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Pet's Age",
+    "expression": "grel:if(value.contains(\"weeks\"), toNumber(value.replace(\" weeks\", \"\")) * 0.01923, value)",
+    "onError": "set-to-blank",
+    "newColumnName": "Pet's Age_new",
+    "columnInsertIndex": 4,
+    "description": "Create column Pet's Age_new at index 4 based on column Pet's Age using expression grel:if(value.contains(\"weeks\"), toNumber(value.replace(\" weeks\", \"\")) * 0.01923, value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Pet's Age",
+    "description": "Remove column Pet's Age"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Pet's Age_new",
+    "expression": "grel:if(value.contains(\"months\"), toNumber(value.replace(\"months\", \"\")) * 0.0833, value)",
+    "onError": "set-to-blank",
+    "newColumnName": "Pet's Age",
+    "columnInsertIndex": 4,
+    "description": "Create column Pet's Age at index 4 based on column Pet's Age_new using expression grel:if(value.contains(\"months\"), toNumber(value.replace(\"months\", \"\")) * 0.0833, value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Pet's Age_new",
+    "description": "Remove column Pet's Age_new"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's Age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "So so old"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's Age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's Age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3-Feb"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column Pet's Age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Kind of Pet",
+          "columnName": "Kind of Pet",
+          "query": "Cat",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's Age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "12"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 12
+      }
+    ],
+    "description": "Mass edit cells in column Pet's Age"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Kind of Pet",
+          "columnName": "Kind of Pet",
+          "query": "Cat",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "range",
+          "name": "Pet's Age",
+          "expression": "grel:value",
+          "columnName": "Pet's Age",
+          "from": 0.01,
+          "to": 1.92,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's Age",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's Age using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Pet's Age",
+          "expression": "value",
+          "columnName": "Pet's Age",
+          "from": 0,
+          "to": 25,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Kind of Pet",
+          "expression": "value",
+          "columnName": "Kind of Pet",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Rabbit",
+                "l": "Rabbit"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's Age",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's Age using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Pet's Age",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Pet's Age using expression value.toNumber()"
+  }
+]
