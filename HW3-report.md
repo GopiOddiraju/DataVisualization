@@ -119,6 +119,7 @@ Idiom: Scatter Plot / Mark: Point
 | --- |---| --- |
 | Temperature | value, quantitative | horizontal position on a common scale (x-axis) |
 | Precipitation | value, quantitative | vertical position on a common scale (y-axis) |
+| City | key, categorical | Hue (Differentiating multiple cities) |
 
 
 <img src="ScatterPlot.png" alt="Alt Text" width="700"/>
