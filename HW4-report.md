@@ -82,15 +82,25 @@ Even after considering the death rates due to only Diseases instead of all cause
 
 
 Question: What are the specific factors contributing to higher death rates in states like Mississippi, Alabama, Oklahoma, and Louisiana? 
+
 Hypothesis: It might be influenced by access to quality healthcare and socioeconomic challenges in these states.
 
+
+
 Question: Are there regional patterns of states with similar health and safety profiles?
+
 Hypothesis: There might be similar health and safety challenges due to shared geographical factors.
 
+
+
 Question: Have there been any public health policies in states with lower death rates that can be used in other states?
+
 Hypothesis: States with lower death rates might have implemented effective healthcare policies.
 
+
+
 Question: Are the states with higher death rates due to crime, lacking enough education and employment opportunities? 
+
 Hypothesis: Lack of educational awareness and employment opportunities might have increased the crime rates in this case.
 
 
@@ -184,18 +194,31 @@ To answer question 2, The infant mortality rate for females is the lowest among 
 
 
 Question: What factors contributed to the common declines in life expectancy in the years 1980 and 1993 for all categories?
+
 Hypothesis: Economic recession or any external factors such as wars or pandemics might have influenced life expectancy.
 
+
+
 Question: What healthcare improvements helped the consistent growth in life expectancy over the years?
+
 Hypothesis: Advances in healthcare, diet habits, or public health policies might have impacted positively.
 
+
+
 Question: What factor might have caused the discrepancy among the four categories, with females having the highest life expectancy and blacks having the lowest?
+
 Hypothesis: Socioeconomic factors and access to healthcare might have played a role in this.
 
+
+
 Question: What healthcare improvements helped to the consistent decline in infant mortality rate over the years?
+
 Hypothesis: Understanding the historical context and identifying the periods of deterioration can help future policy and healthcare initiatives.
 
+
+
 Question: What factors contributed to the sudden increase in infant mortality rate in the year 1996 for black people?
+
 Hypothesis: Economic challenges such as unemployment might have had an impact on this.
 
 
