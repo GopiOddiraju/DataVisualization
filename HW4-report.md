@@ -12,7 +12,7 @@ I've chosen dataset 2 for this Homework. I have manipulated the given data to so
 ## Q1:
 
 
-### Question###: Which states had the highest death rates over all causes in 2006?
+### Question: Which states had the highest death rates over all causes in 2006?
 
 
 
@@ -39,14 +39,14 @@ Plotting a bar chart between the states and death rates over all causes helps to
 I decided to plot a horizontal bar chart for better readability. I've plotted the bar chart using the data sorted by total death rates over all causes so that we can easily compare among states. Death rates were represented on X-axis and the states were represented using Y-axis. I've decreased the font size for the label on the y-axis to make sure the states' names do not overlap with each other. 
 
 
-Top 5 fives states with highest death rates in 2006 were Mississippi, Alabama, West Virginia, Louisiana, and Oklahoma. The lowest death rates were observed in states Hawaii, Minnesota, California, New York, and Utah with Hawaii being the lowest.
+To answer the question 1, Top 5 fives states with highest death rates in 2006 were Mississippi, Alabama, West Virginia, Louisiana, and Oklahoma. The lowest death rates were observed in states Hawaii, Minnesota, California, New York, and Utah with Hawaii being the lowest.
 
 
 
 ## Q2:
 
 
-###Question: Is this ordering different if you compare deaths due to disease vs. deaths due to accident, injury, and assault? In other words, which states are more hazardous to your health vs. which states are the most dangerous?
+### Question: Is this ordering different if you compare deaths due to disease vs. deaths due to accident, injury, and assault? In other words, which states are more hazardous to your health vs. which states are the most dangerous?
 
 
 
@@ -81,13 +81,123 @@ Even after considering the death rates due to only Diseases instead of all cause
 ## Further questions:
 
 
-What are the specific factors contributing to higher death rates in states like Mississippi, Alabama, Oklahoma, and Lousiana. Are there any other common factors or a combination of health and safety factors?
+Question: What are the specific factors contributing to higher death rates in states like Mississippi, Alabama, Oklahoma, and Lousiana. 
+Hypothesis: It might be influenced by access to quality healthcare and socioeconomic challenges in these states.
 
-Are there regional patterns of states with similar health and safety profiles?
+Question: Are there regional patterns of states with similar health and safety profiles?
+Hypothesis: There might be similar health and safety challenges due to shared geographical factors.
 
-Have there been any public health polocies in states with lower death rates which can be used in other states?
+Question: Have there been any public health polocies in states with lower death rates which can be used in other states?
+Hypothesis: States with lower death rates might have implemented effective healthcare polocies.
 
-Are the states with higher death rates due to crime lacking enough education and employment opportunities? 
+Question: Are the states with higher death rates due to crime, lacking enough education and employment opportunities? 
+Hypothesis: Lack of educational awareness and employment opportunities might have increased the crime rates in this case.
+
+
+
+## Extra Credit 2:
+
+I've completed the whole assignment using the 3rd dataset. I have manipulated the given data to some extent for convenience. At first, I removed the header and footnotes. I deleted all rows except from 1970 to 1999. I've removed the columns 'Total' from Total section,  'Male' and 'Female' from White section, and 'Male' and 'Female' from Black section. I renamed the columns for convinience. After that, I made a few other minor changes such as formatting the cells. Finally, I saved the file as a CSV format. Both the Original(10s0102.xls) and modified files(10s0102.csv) have been uploaded to this repository. I have read the data from CSV and as data frames using Seaborn. The collab link is provided below.
+
+
+
+## Q1
+
+
+### Using Table 102, compare life expectancy for people born between 1970-1999 for the four categories, "Male", "Female", "White", "Black".
+
+
+<img src="ExtracreditQ1.png" alt="Alt Text" width="800"/>
+
+
+
+https://colab.research.google.com/drive/1bjCUKy2nAgOTzdkuqQtH39Iq7PtRrneO#scrollTo=TZBK_qry14H5
+
+
+
+
+A multiple line chart is the best option to compare trends over time. It allows a clear and direct comparision. It deals with the time series data, and a line chart is effective in explaining the changes in life expectency over the years. Line charts create a continous visual representation of the data. As we are comparing the life expectency for four categories, I've chosen a multiple line chart instead of a single line chart. Year is represented on the X-axis. Life expectency in years is represented on the Y-axis. Each category is represented by each color.
+
+
+
+
+
+### Idiom: Multiple Line Chart / Mark: Point
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| Year | Key, Ordinal | horizontal spatial region (x-axis) |
+| Category | key, categorical | Hue (differentiating multiple categories)  |
+| Life expectency | value, quantitative | vertical position on a common scale (y-axis) |
+
+
+
+
+I've considered an appropriate size for the chart. I've plotted the year on X-axis, Life expectency on Y-axis and each category is represented with each different color. I kept appropriate label for the axes and a clear title for the chart and included a legend to differentiate among the colors. I made sure that the grid appears in the background to be able to identify the values easily and represented each data point with a 'point'. 
+
+
+
+To answer the question 1, The life expectency for all the four categories is getting better over the time gradually except for a small decline in the years 1980 and 1993. Interestingly this is same for all the four categories. The life expectency of the black people is the lowest among the given categories while it is highest for Female people, and White and Male categories are at 2nd and 3rd place from the top. The growth of life expectency for all categories has been linear. For black people it starts at 64 years in 1970 and ends up with over 71 in 1999, whereas for male category, the lowest is 67 in 1970 and reached its highest almost 74 in 1999. For white people, It was over 70 in 1970 and it became 77 in 1999, and 75 was the lowest and recorded in 1970 and ended up with a highest of 79 in 1999 for female category.
+
+
+
+## Q2
+
+
+
+I have manipulated the given data for convenience. At first, I removed the header and footnotes. I've removed all other columns except the age less than 1 year column. There was data available for Male category and Female category separtely. There was also separate data for White Male people, Black Male people and as well as White Female people and Black female people. I considered the data available separately for Male and Female people for plotting respective categories( It has data only for the years 1980,1990, and 2000). For Black and White people, I considered the sum of white male, black amle and white female, black female respectively( It has data from 1980 to 1999 for every 5 years). I deleted all remaining rows. I've removed the columns with simple names. After that, I made a few other minor changes such as formatting the cells. Finally, I saved the file as a CSV format. Both the Original(10s0107.xls) and modified files(10s0107.csv) have been uploaded to this repository. I have read the data from CSV and as data frames using Seaborn. The collab link is provided below.
+
+
+
+### Using Table 107, compare infant mortality rates (under 1 year) for these same categories between 1980-1999.
+
+
+<img src="ExtracreditQ2.png" alt="Alt Text" width="800"/>
+
+
+https://colab.research.google.com/drive/1bjCUKy2nAgOTzdkuqQtH39Iq7PtRrneO#scrollTo=TZBK_qry14H5
+
+
+
+
+A multiple line chart is the best option to compare trends over time. It allows a clear and direct comparision. It deals with the time series data, and a line chart is effective in explaining the changes in life expectency over the years. Line charts create a continous visual representation of the data. As we are comparing the infant mortality rates for four categories, I've chosen a multiple line chart instead of a single line chart. Year is represented on the X-axis. infant mortality rate per 100,000 population is represented on the Y-axis. Each category is represented by each color.
+
+
+
+### Idiom: Multiple Line Chart / Mark: Point
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| Year | Key, Ordinal | horizontal spatial region (x-axis) |
+| Category | key, categorical | Hue (differentiating multiple categories)  |
+| Infant mortality rate | value, quantitative | vertical position on a common scale (y-axis) |
+
+
+
+I've considered an appropriate size for the chart. I've plotted the year on X-axis, Infant mortality rate per 100,000 population on Y-axis and each category is represented with each different color. I kept appropriate label for the axes and a clear title for the chart and included a legend to differentiate among the colors. I made sure that the grid appears in the background to be able to identify the values easily and represented each data point with a 'point'.
+
+
+
+To answer the question 2, The infant mortality rate for female is the lowest among given four categories. The highest is for Black people category and White and Male categories were 2nd and 3rd from the top. For all categories the mortality rate has been decreased gradually. For black people, there was a slight increase in the year 1996. Apart from that there is no upwards graph for any of the given categories. For females, the mortality rate was around 1100 per 100,000 population in 1980 and it decreased to around 700 per 100,000 in 2000. For Male, it was 1400 in 1980 and it was dropped to around 800 in 2000. The infant mortality rate for the white people was 2200 per 100,000 population in 1980 and gradually it became just over 1200 in 1999. Starting with over 4700 per 100,000 population, the infant mortality rate has been decreased to 3100 in 1999 for the black people.
+
+
+
+## Further questions:
+
+
+Question : What factors contributed to the common declines in life expectency in the years 1980 and 1993 for all categories?
+Hypothesis: Economic recession, or any external factors such as wars or pandemics might have influenced the life expectency.
+
+Question: What healthcare improvements helped to the consistent growth in life expectency over the years?
+Hypothesis: Advances in healthcare, diet habits or public health polocies might have impacted positively.
+
+Question: What factor might have caused the discrepancy in among four categories, with females having highest life expectency and blacks having the lowest?
+Hypothesis: Socioeconomic factors and access to healthcare might have played a role in this.
+
+Question: What healthcare improvements helped to the consistent decline in infant mortality rate over the years?
+Hypothesis: Understanding the historical context and identifying the periods of deterioration can help future policy and healthcare initiatives.
+
+Question : What factors contributed to the sudden increase in infant mortality rate in the year 1996 for black people?
+Hypothesis: Economic challenges such as unemployment might have had impact on this.
+
 
 
 
@@ -95,5 +205,6 @@ Are the states with higher death rates due to crime lacking enough education and
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
 https://stackoverflow.com/questions/43214978/how-to-display-custom-values-on-a-bar-plot
 https://www.geeksforgeeks.org/how-to-show-values-on-seaborn-barplot/
+https://stackoverflow.com/questions/14399689/matplotlib-drawing-lines-between-points-ignoring-missing-data
 
 
