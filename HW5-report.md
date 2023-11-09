@@ -50,6 +50,9 @@ By looking at the plot, we can say that the Median line shifts upward as we move
 
 
 
+
+
+
 <img src="eCDF.png" alt="Alt Text" height="500"/>
 
 
@@ -76,6 +79,10 @@ I've decided to plot an eCDF for the population in the year 2000. The population
 
 
 By looking at the plot, we can say that a significant portion of states had lower populations in 2000 and the gradual slope indicates a more evenly distributed population. We can identify the percentiles by looking at the 0.25, and 0.75 values on the y-axis. 0.25 represents the 25th percentile and 0.75 represents the 75th percentile. We can say that 50% of the states had a population below around 5000 thousand in 2000.
+
+
+
+
 
 
 
@@ -112,12 +119,14 @@ By looking at the Histogram, we can say that the high count in the lower bins in
 
 
 
-### Part 1: Further Analysis
+
+
+### Part 2: Further Analysis
 
 
 I've decided to plot a bar chart to represent the population distribution by State in the year 2000. 
 
-<img src="Barchart for population distribution by State.png" alt="Alt Text" height="500"/>
+<img src="Barchart for population distribution by State.png" alt="Alt Text" height="700"/>
 
 
 
@@ -125,10 +134,16 @@ The bar chart illustrates the wide variation in state populations in the year 20
 
 
 
+
+
 Identifying Outliers:
 
-By examining boxplots of population distribution over the years, it was observed that certain states consistently appeared as outliers, having significantly higher or lower populations than the majority. Boxplots are effective in highlighting outliers, which are data points significantly different from the majority. The presence of outliers prompted further investigation into the factors contributing to the exceptional populations in these states. For example, economic opportunities, urbanization, or unique historical events might be influencing these outliers.
+By observing the boxplot of population distribution over the years, we can say that certain states consistently appeared as outliers, having significantly higher populations than the majority. Boxplots are effective in highlighting outliers, which are data points significantly different from the majority. The presence of outliers prompted further investigation into the factors contributing to the extreme populations in these states. For example, economic opportunities, urbanization, or unique historical events might be influencing these outliers.
 
+
+Population Concentration:
+
+The steep initial rise in the eCDF curve indicates that a large proportion of the data points had lower population values, suggesting that a considerable number of states have smaller populations. The histogram shows a large number of states with populations below 10,000, strengthening the insight from the eCDF. The long flat tail at the end of the eCDF curve suggests the presence of states with higher populations, indicating that a few states have larger populations. The histogram shows a right-skewed distribution with a few states having populations well above the majority, supporting the insight from the eCDF.
 
 
 
